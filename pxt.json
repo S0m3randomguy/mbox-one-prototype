@@ -1,5 +1,5 @@
 {
-    "name": "Xbox One Prototype v0.0.1",
+    "name": "Xbox One prototype v0.0.1",
     "dependencies": {
         "device": "*",
         "controller": "*",

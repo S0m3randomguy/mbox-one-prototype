@@ -1,21 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="JacDacMessage" id="8.{N!eL=[s38UNm98NIt">0message1</variable><variable id="8gR/wys;AQm9336T}/ow">bootScreen</variable><variable type="KIND_SpriteKind" id="T)!Iv@|Q,NnrOU38iFBa">Player</variable><variable type="KIND_SpriteKind" id="0y]O%m+kM`dC#sea~926">Projectile</variable><variable type="KIND_SpriteKind" id=":C-Bl2KjANG2NicO4QMJ">Food</variable><variable type="KIND_SpriteKind" id=";lVZ4147c,8E`owX]UTA">Enemy</variable><variable type="KIND_SpriteKind" id="*(F?D;fbiZo*g$e6%cqQ">Screen</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="console_log"><value name="value"><shadow type="text"><field name="TEXT">Xbox x86_32</field></shadow></value><next><block type="console_log"><value name="value"><shadow type="text"><field name="TEXT">Build: 0.0.1</field></shadow></value><next><block type="console_log"><value name="value"><shadow type="text"><field name="TEXT">Starting...</field></shadow></value><next><block type="game_dialog_set_cursor"><value name="frame"><shadow type="screen_image_picker"><field name="img">img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`</field></shadow></value><next><block type="game_dialog_set_frame"><value name="frame"><shadow type="dialog_image_picker"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="JacDacMessage" id="8.{N!eL=[s38UNm98NIt">0message1</variable><variable type="KIND_SpriteKind" id="T)!Iv@|Q,NnrOU38iFBa">Player</variable><variable type="KIND_SpriteKind" id="0y]O%m+kM`dC#sea~926">Projectile</variable><variable type="KIND_SpriteKind" id=":C-Bl2KjANG2NicO4QMJ">Food</variable><variable type="KIND_SpriteKind" id=";lVZ4147c,8E`owX]UTA">Enemy</variable><variable type="KIND_SpriteKind" id="*(F?D;fbiZo*g$e6%cqQ">Screen</variable><variable id="8gR/wys;AQm9336T}/ow">bootScreen</variable><variable id="1~AyliYD^OdpYY_^lbOQ">screenState</variable></variables><block type="pxt-on-start" id="?$H14%T+BOyL4{pp[/0x" x="0" y="0"><statement name="HANDLER"><block type="game_dialog_set_frame" id="s2K{/lX5Lq5=`TB(MQ3="><value name="frame"><shadow type="dialog_image_picker" id="Gn}40pmU3z~Vg?q:}VQw"><field name="img">img`
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 1 f f f f f f f f f f f f f 1 
 1 f f f f f f f f f f f f f 1 
@@ -31,4 +14,37 @@
 1 c c c c c c c c c c c c c 1 
 1 c c c c c c c c c c c c c 1 
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-`</field></shadow></value><next><block type="game_dialog_set_text_color"><value name="color"><shadow type="colorindexpicker"><field name="index">1</field></shadow></value><next><block type="game_show_long_text"><field name="layout">DialogLayout.Top</field><value name="str"><shadow type="text"><field name="TEXT">HDMI 2</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="keyonevent" x="350" y="10"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
+`</field></shadow></value><next><block type="game_dialog_set_text_color" id="jzwzY-AfTSimKcHkHs?n"><value name="color"><shadow type="colorindexpicker" id="_{s)PsAu^kcF6A9gY(^W"><field name="index">1</field></shadow></value><next><block type="game_show_long_text" id="vgB,?-D*%OH67hOJs.s5"><field name="layout">DialogLayout.Top</field><value name="str"><shadow type="text" id="#5`i{*Lk)#p9BkP6RE%5"><field name="TEXT">HDMI 2</field></shadow></value><next><block type="function_call" id="a`RwPNZ2yJC;!Fh-.3[4"><mutation name="bootScreenConsole" functionid="|AqgF,e+^RjB^tJ_tXjY"/></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="Zhywqw~v4sXQ7=sJZzT{" x="380" y="20"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block><block type="function_definition" id="hzq?Zr])tS@.$9KCZ(_f" x="10" y="430"><mutation name="bootScreenConsole" functionid="|AqgF,e+^RjB^tJ_tXjY"/><field name="function_name">bootScreenConsole</field><statement name="STACK"><block type="game_dialog_set_frame" id="57#a{J6c:QwQf=mE#91N"><value name="frame"><shadow type="dialog_image_picker" id="IyYJeDYo6bv9@EOxo:yq"><field name="img">img`
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f 
+`</field></shadow></value><next><block type="game_dialog_set_cursor" id="v~19V:.s`Q!HLeHAI$-V"><value name="frame"><shadow type="screen_image_picker" id="!8n@aF0_dn7dhF7s%1ga"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><next><block type="game_dialog_set_text_color" id="7[bW[d7~I1x`d^.EE/{C"><value name="color"><shadow type="colorindexpicker" id="}ScBgbyxPaw|;xD;5S,i"><field name="index">1</field></shadow></value><next><block type="game_show_long_text" id="wd6P?KE?(Tb+^u^jT}zz"><field name="layout">DialogLayout.Top</field><value name="str"><shadow type="text" id="%d|WF0S@YVsUirP@bv_#"><field name="TEXT">Xbox 86_32   Build 0.0.1 Press A button      to continue</field></shadow></value><next><block type="variables_set" id=";2?U:t$%ByUYtj6fIApS"><field name="VAR" id="1~AyliYD^OdpYY_^lbOQ">screenState</field><value name="VALUE"><shadow type="math_number" id="zFA!$-,DyuPKs_n-+H!)"><field name="NUM">1</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
