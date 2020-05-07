@@ -82,8 +82,6 @@ function system () {
                 mediumSelector.setPosition(44, 64)
             } else if (setupTileSize == "wide") {
             	
-            } else if (setupTileSize == "large") {
-            	
             } else {
             	
             }
@@ -390,10 +388,10 @@ function startupScreen () {
     animation.runMovementAnimation(
     xboxLogo,
     animation.animationPresets(animation.easeDown),
-    1100,
+    110,
     false
     )
-    pause(1600)
+    pause(160)
     startScreen()
 }
 function bootScreenConsole () {
@@ -468,3 +466,19 @@ game.showLongText("HDMI 2", DialogLayout.Top)
 serviceManager()
 pause(500)
 bootScreenConsole()
+forever(function () {
+    if (0 == 0) {
+    	
+    } else {
+        if (blockSettings.exists("systemSetup")) {
+            if (0 == 0) {
+            	
+            } else {
+            	
+            }
+        } else {
+            blockSettings.writeNumber("systemSetup", 0)
+        }
+        blockSettings.writeNumber("systemSetup", 1)
+    }
+})
