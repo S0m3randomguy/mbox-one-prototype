@@ -388,10 +388,10 @@ function startupScreen () {
     animation.runMovementAnimation(
     xboxLogo,
     animation.animationPresets(animation.easeDown),
-    110,
+    1100,
     false
     )
-    pause(160)
+    pause(1600)
     startScreen()
 }
 function bootScreenConsole () {
@@ -437,12 +437,12 @@ f f f f f f f f f f f f f f f
 let xboxText: Sprite = null
 let xboxLogo: Sprite = null
 let powerState = 0
-let serviceCall = 0
 let mediumSelector: Sprite = null
 let tileSelect = 0
 let systemInterfacePhase = false
 let setupTile: Sprite = null
 let setupTileSize = ""
+let serviceCall = 0
 let screenState = 0
 game.setDialogFrame(img`
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
@@ -463,6 +463,7 @@ game.setDialogFrame(img`
 `)
 game.setDialogTextColor(1)
 game.showLongText("HDMI 2", DialogLayout.Top)
+serviceCall = 0
 serviceManager()
 pause(500)
 bootScreenConsole()
