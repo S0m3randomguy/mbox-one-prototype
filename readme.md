@@ -27,4 +27,4 @@ ANY FORM OF SPAM WILL BE INSTANTLY REPORTED AND BANNED FROM MBOX REPOSOTORY
 
 ## Reporting an issue/tip
 
-If you've noticed a bug/have a way to improve Mbox, feel free to create a new issue.
+If you've noticed a bug/have a way to improve Mbox, feel free to create a new issue?qtxrt_cu=86&mskl_=aHR0cHM6Ly9naXRodWIuY29tL1MwbTNyYW5kb21ndXkvWGJveC1vbmUtcHJvdG90eXBlL2lzc3Vlcy9uZXc=
