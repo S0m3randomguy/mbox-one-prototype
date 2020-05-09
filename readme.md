@@ -28,6 +28,6 @@ If you've noticed a bug/have a way to improve Mbox, feel free to create a new is
 
 ## Licences and privacy policy
 ### Licence - Creative commons attribution 4.0 international public licence
-This project is licenced under Creative commons licence. Using the project code as a template or distributing the project re-created is allowed under the condition that the you credit and link the original author to this website, also the for the 3rd party use must be non-commercial.
+This project is licenced under Creative commons licence. Using the project code as a template or distributing the project re-created is allowed under the condition that the you credit and link the original author to this website, also the 3rd party use must be non-commercial.
 #### Using the CC attribution 4.0 licence (Source: creativecommons.org/licenses/by/4.0/legalcode)
 Creative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.
