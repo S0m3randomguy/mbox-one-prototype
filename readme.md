@@ -24,3 +24,7 @@ To apply, create a new pull request containing a link to the GitHub reposotory o
 - Pull request contains the creator's signature (that's how you will be displayed in the Mbox store)
 
 ANY FORM OF SPAM WILL BE INSTANTLY REPORTED AND BANNED FROM MBOX REPOSOTORY
+
+## Reporting an issue/tip
+
+If you've noticed a bug/have a way to improve Mbox, feel free to Create a new issue
