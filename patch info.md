@@ -1,4 +1,0 @@
-# Bugs and patches
-
-## Versions
-
