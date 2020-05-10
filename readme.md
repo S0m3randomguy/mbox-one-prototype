@@ -24,7 +24,7 @@ To apply, create a new pull request containing a link to the GitHub reposotory o
 ANY FORM OF SPAM WILL BE INSTANTLY REPORTED AND BANNED FROM MBOX REPOSOTORY
 
 ## Reporting an issue/tip
-If you've noticed a bug/have a way to improve Mbox, feel free to create a new issue. Any advice/tip is welcome.
+If you've noticed a bug/have a way to improve Mbox, feel free to create a new issue. Any advice/tip is welcome. For detail instructions and a list of supported versions, read patches.md
 
 ## Licences and privacy policy
 ### Licence - Creative commons attribution 4.0 international public licence
